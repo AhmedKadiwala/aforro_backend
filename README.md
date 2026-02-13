@@ -33,7 +33,7 @@ A production-ready Django REST API backend for managing products, inventory, sto
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/AhmedKadiwala/aforro_backend.git
 cd aforro_backend
 ```
 
