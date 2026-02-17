@@ -654,7 +654,7 @@ aforro_backend/
 │   ├── urls.py                # Root URL configuration
 │   └── celery.py              # Celery configuration
 |
-├── tests/
+├── tests/  
 │   ├── test_orders.py     # Order creation tests
 │   ├── test_search.py     # Search and autocomplete tests
 │   └── test_inventory.py  # Inventory listing tests

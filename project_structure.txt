@@ -1,0 +1,93 @@
+📂 Current Directory: C:\aforro_backend
+
+ROOT FILES AND FOLDERS:
+  📁 apps
+  📁 project
+  📁 tests
+  📄 .dockerignore
+  📄 .env.example
+  📄 .gitignore
+  📄 docker-compose.yml
+  📄 Dockerfile
+  📄 manage.py
+  📄 project_structure.ps1
+  📄 README.md
+  📄 requirements.txt
+
+COMPLETE STRUCTURE (excluding venv):
+
+├── 📁 apps
+│   ├── 📁 orders
+│   │   ├── 📁 migrations
+│   │   │   ├── 📄 0001_initial.py (2.09 KB)
+│   │   │   └── 📄 __init__.py (0 B)
+│   │   ├── 📄 admin.py (806 B)
+│   │   ├── 📄 models.py (1.45 KB)
+│   │   ├── 📄 serializers.py (2.05 KB)
+│   │   ├── 📄 tasks.py (2.54 KB)
+│   │   ├── 📄 urls.py (267 B)
+│   │   ├── 📄 views.py (5.81 KB)
+│   │   └── 📄 __init__.py (0 B)
+│   ├── 📁 products
+│   │   ├── 📁 management
+│   │   │   ├── 📁 commands
+│   │   │   │   ├── 📄 seed_data.py (5.24 KB)
+│   │   │   │   └── 📄 __init__.py (0 B)
+│   │   │   └── 📄 __init__.py (0 B)
+│   │   ├── 📁 migrations
+│   │   │   ├── 📄 0001_initial.py (1.80 KB)
+│   │   │   └── 📄 __init__.py (0 B)
+│   │   ├── 📄 admin.py (493 B)
+│   │   ├── 📄 models.py (1.07 KB)
+│   │   ├── 📄 serializers.py (872 B)
+│   │   ├── 📄 urls.py (362 B)
+│   │   ├── 📄 views.py (826 B)
+│   │   └── 📄 __init__.py (0 B)
+│   ├── 📁 search
+│   │   ├── 📄 urls.py (234 B)
+│   │   ├── 📄 utils.py (343 B)
+│   │   ├── 📄 views.py (7.94 KB)
+│   │   └── 📄 __init__.py (0 B)
+│   ├── 📁 stores
+│   │   ├── 📁 migrations
+│   │   │   ├── 📄 0001_initial.py (1.92 KB)
+│   │   │   └── 📄 __init__.py (0 B)
+│   │   ├── 📄 admin.py (530 B)
+│   │   ├── 📄 models.py (1.29 KB)
+│   │   ├── 📄 serializers.py (802 B)
+│   │   ├── 📄 urls.py (267 B)
+│   │   ├── 📄 views.py (2.41 KB)
+│   │   └── 📄 __init__.py (0 B)
+│   └── 📄 __init__.py (0 B)
+├── 📁 project
+│   ├── 📄 asgi.py (171 B)
+│   ├── 📄 celery.py (836 B)
+│   ├── 📄 settings.py (4.51 KB)
+│   ├── 📄 urls.py (972 B)
+│   ├── 📄 wsgi.py (171 B)
+│   └── 📄 __init__.py (66 B)
+├── 📁 tests
+│   ├── 📄 test_inventory.py (3.89 KB)
+│   ├── 📄 test_orders.py (5.65 KB)
+│   ├── 📄 test_search.py (5.88 KB)
+│   └── 📄 __init__.py (0 B)
+├── 📄 .dockerignore (175 B)
+├── 📄 .env.example (335 B)
+├── 📄 .gitignore (426 B)
+├── 📄 docker-compose.yml (1.25 KB)
+├── 📄 Dockerfile (715 B)
+├── 📄 manage.py (660 B)
+├── 📄 project_structure.ps1 (4.24 KB)
+├── 📄 README.md (16.81 KB)
+└── 📄 requirements.txt (620 B)
+
+╔════════════════════════════════════════════╗
+║     NOTES FOR CHATGPT                      ║
+╠════════════════════════════════════════════╣
+║ • Virtual Environment (venv) is excluded   ║
+║ • venv contains Python packages/dependencies║
+║ • Project is Django-based (manage.py seen)  ║
+║ • Apps folder for custom Django apps        ║
+║ • Docker support (Dockerfile + compose)     ║
+║ • Environment variables (.env.example)      ║
+╚════════════════════════════════════════════╝

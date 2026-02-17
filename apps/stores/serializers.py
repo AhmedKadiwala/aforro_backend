@@ -9,6 +9,7 @@ class StoreSerializer(serializers.ModelSerializer):
 
 
 class InventorySerializer(serializers.ModelSerializer):
+    product_id = serializers.IntegerField(source='product.id', read_only=True)
     product_title = serializers.CharField(source='product.title', read_only=True)
     price = serializers.DecimalField(
         source='product.price',
@@ -17,10 +18,15 @@ class InventorySerializer(serializers.ModelSerializer):
         read_only=True
     )
     category_name = serializers.CharField(source='product.category.name', read_only=True)
-    
+
     class Meta:
         model = Inventory
         fields = [
-            'id', 'product_title', 'price', 'category_name',
-            'quantity', 'updated_at'
+            'id',
+            'product_id',  # ← add this
+            'product_title',
+            'price',
+            'category_name',
+            'quantity',
+            'updated_at'
         ]
